@@ -1,0 +1,30 @@
+.app-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.App {
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+  height: 250px;
+  /* border: 2px solid black; */
+}
+
+.white {
+  background-color: white;
+  width: 80px;
+  height: 100%;
+  border: 2px solid black;
+}
+
+.black {
+  background-color: black;
+  margin-left: -25px;
+  margin-right: -25px;
+  z-index: 2;
+  width: 50px;
+  height: 60%;
+}
